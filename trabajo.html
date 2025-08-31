@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trabajo</title>
+<link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<style>
+
+.project-detail-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.project-detail-container h3 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.project-detail-container p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+    color: #444;
+    text-align: justify;
+}
+
+.project-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    padding: 15px 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.project-carousel img {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+}
+
+.project-carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.project-carousel::-webkit-scrollbar-thumb {
+    background-color: #0594F5;
+    border-radius: 4px;
+}
+
+.project-carousel::-webkit-scrollbar-track {
+    background-color: #e0e0e0;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1 class="title">LUIS TITO SALINAS GARCIA</h1>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+		  <a href="index.html"><li>INICIO</li></a>
+        <a href="trabajo.html"><li>TRABAJO</li></a>
+        <a href="portafolio.html"><li>PORTAFOLIO</li></a>
+        <a href="servicios.html"><li>SERVICIOS</li></a>
+        <a href="clientes.html"><li>CLIENTES</li></a>
+		  <a href="contacto.html"><li>CONTACTO</li></a>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="secondary_header">
+    <h2 class="title" style="margin: 0; padding: 0;">MI TRABAJO</h2>
+  </section>
+  
+  <div class="project-detail-container">
+    <h3>Proyecto: Solar Computer/ Aplicación de escritorio</h3>
+    <p>"Solar Computer" es una aplicación de escritorio robusta y visualmente atractiva, diseñada para funcionar como un catálogo interactivo de laptops. Desarrollada para ofrecer una experiencia de usuario fluida y eficiente, permite a los usuarios navegar por una amplia gama de productos, visualizar sus especificaciones detalladas y comparar modelos con facilidad. El objetivo principal fue crear una herramienta intuitiva que combinara un diseño estético con una funcionalidad potente, facilitando la toma de decisiones de compra y mejorando la interacción del cliente con el inventario de productos.</p>
+    
+    <div class="project-carousel">
+      <img src="images/p1.png" alt="Captura del proyecto 1">
+      <img src="images/p2.png" alt="Captura del proyecto 2">
+      <img src="images/p3.png" alt="Captura del proyecto 3">
+      </div>
+  </div>
+  
+  <div class="row blockDisplay">
+    <div class="column_half left_half">
+      <h2 class="column_title">HABILIDADES DE SOFTWARE</h2>
+      <ul style="list-style: none; padding: 0;">
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">Adobe Photoshop</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">Adobe Illustrator</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">Adobe Animate</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">Visual Studio Code</li>
+      </ul>
+    </div>
+    <div class="column_half right_half">
+      <h2 class="column_title">HABILIDADES TÉCNICAS</h2>
+      <ul style="list-style: none; padding: 0;">
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">HTML5 & CSS3</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">JavaScript</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">Diseño UX/UI</li>
+        <li style="text-align: center; color: #FFFFFF; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.2em; line-height: 2em;">ActionScript</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2025 - <strong>luis tito salinas garcia</strong></div>
+  </footer>
+</div>
+</body>
+</html>
